@@ -1,0 +1,127 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing:none;
+    scroll-behavior: smooth;
+} 
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.container p{
+    margin-left:7rem ;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 14vw;
+}
+.upper-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-container p{
+    font-size: 2vw;
+    font-weight: 900;
+    margin-top: 1.7rem;
+}
+.upper-container #save-btn{
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    width: 15%;
+    height: 3.4rem;
+    font-size: 20px;
+    margin-right: 7rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.middle-container{
+    display: flex;
+    position: relative;
+    top: 10rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 8%;
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+}
+.middle-container h2{
+      font-size: 2rem;
+} 
+.box1{
+
+}
+.box1 #problem-bar{
+    position: relative;
+    bottom: 1px;
+    left: -14px;
+    border-radius: 25px;
+    border: 1px solid #d1d1d1c9; ;
+    width: 25rem;
+    height: 4rem;
+    font-size: 20px;
+    background-color: #d1d1d1c9;
+    color:black;
+}
+input[type="text"]{
+    text-align: center;
+}
+.middle-container .box2 #CategoryBar{
+    text-align: center;
+    position: relative;
+    bottom: 1px;
+    height: 3.9rem;
+    left: -5px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 20rem;
+    font-size: 20px;
+}
+.middle-container .box3 button{
+    position: relative;
+    top: 30px;
+    left: 1rem;
+    width: 115%;
+    height: 64%;
+    /* border-radius: 42px; */
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.container-input{
+    position: relative;
+    background-color: #d1d1d1c9;
+    color: black;
+    width:64%;
+    bottom: -10rem;
+    left: 7rem;
+    height: 18vw;
+    border-radius: 25px;
+}
+.container-input button{
+    position: absolute;
+    bottom: 1rem;
+    left: 92.8%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.inputBox1{
+    font-weight: 800;
+    font-size: xx-large;
+    margin-left: 2%;
+}
+.inputBox2{
+    display: flex;
+    height: 67%;
+    align-items: center;
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 7%; 
+}
+
