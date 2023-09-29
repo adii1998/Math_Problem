@@ -124,4 +124,6 @@ input[type="text"]{
     font-size: x-large;
     margin-left: 7%; 
 }
-
+@media(max-width: 480px){
+    
+}
